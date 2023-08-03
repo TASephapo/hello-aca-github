@@ -4,8 +4,10 @@ jobs:
     docker:
       - image: cimg/node:20.5.0
     environment:
-      VERCEL_ORG_ID: $VERCEL_ORG_ID
-      VERCEL_PROJECT_ID: $VERCEL_PROJECT_ID
+      VERCEL_TOKEN: okRYmiQuaA89KpvhrSrD3bQz
+      VERCEL_ORG_ID: 4yyekc5drJEJ2XdYXprnc2N6
+      VERCEL_PROJECT_ID: prj_xMKsAmadz2Tutd5v4pfKfCZ3KXOA
+      
     steps:
       - checkout
       - run:
@@ -25,8 +27,9 @@ jobs:
     docker:
       - image: cimg/node:20.5.0
     environment:
-      VERCEL_ORG_ID: $VERCEL_ORG_ID
-      VERCEL_PROJECT_ID: $VERCEL_PROJECT_ID
+     VERCEL_TOKEN: okRYmiQuaA89KpvhrSrD3bQz
+     VERCEL_ORG_ID: 4yyekc5drJEJ2XdYXprnc2N6
+     VERCEL_PROJECT_ID: prj_xMKsAmadz2Tutd5v4pfKfCZ3KXOA
     steps:
       - checkout
       - run:
